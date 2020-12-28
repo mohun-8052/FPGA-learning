@@ -1,0 +1,86 @@
+module uart_recv(
+	input 				sys_clk,
+	input					sys_rst_n,
+	
+	input 				uart_rxd,
+	output reg 			uart_done,
+	output reg [7:0]	uart_date;
+);
+
+//parameter define
+parameter 	CLK_FREQ = 50000000;
+parameter 	UART_BPS = 9600;
+localparam 	BPS_CNT 	= CLK_FREQ/UART_BPS;
+
+//reg define
+reg 			uart_rxd_d0;
+reg 			uart_rxd_d1;
+reg [15:0] 	clk_cnt;
+reg [ 3:0] 	rx_cnt;
+reg 			rx_flag;
+reg [ 7:0] 	rxdate;
+
+//wire define
+wire 			start_flag;
+
+assign start_flag = uart_rxd_d1 & (~ uart_rxd_d0);
+
+always @(posedge sys_clk or negedge sys_rst_n) begin
+	if(!sys_rst_n) begin
+		uart_rxd_d0 <= 1'b0;
+		uart_rxd_d1 <= 1'b0;
+	end
+	else begin
+		uart_rxd_d0 <= uart_rxd;
+		uart_rxd_d0 <= uart_rxd_d0;
+	end
+end
+
+always @(posedge sys_clk or negedge sys_rst_n) begin
+	if(!sys_rst_n) 
+		rx_flag <= 1'b0;
+	else begin
+		if(start_flag)
+			rx_flag <= 1'b1;
+		else 
+			if((rx_cnt == 4'd9) &&(clk_cnt == BPS_CNT/2))
+				rx_flag <= 1'b0;
+			else
+				rx_flag <= rx_flag;
+	end
+end
+
+always @(posedge sys_clk or negedge sys_rst_n) begin
+	if(!sys_rst_n) begin
+		clk_cnt <= 1'b0;
+		rx_cnt  <= 1'b0;
+	end
+	else begin
+		if(rx_flag) begin
+			if(clk_cnt < BPS_CNT -1) begin
+				rx_cnt  <= rx_cnt;
+				clk_cnt <= clk_cnt + 1'b0;
+			end
+			else begin
+				rx_cnt  <= rx_cnt + 1'b1;
+				clk_cnt <= 16'b0;
+			end
+		end
+		else begin
+			rx_cnt  <=  4'b0;
+			clk_cnt <= 16'b0;
+		end
+	end
+end
+
+always @(posedge sys_clk or negedge sys_rst_n) begin
+	if(!sys_rst_n) begin
+		uart_rxd_d0 <= 1'b0;
+		uart_rxd_d1 <= 1'b0;
+	end
+	else begin
+		uart_rxd_d0 <= uart_rxd;
+		uart_rxd_d0 <= uart_rxd_d0;
+	end
+end
+endmodule

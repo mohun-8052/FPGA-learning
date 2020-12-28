@@ -1,0 +1,35 @@
+module flow_led(
+	input             sys_clk;
+	input 		      rst_n;
+	
+	output reg [3:0] 	led
+);
+
+
+reg [23:0] cnt;
+
+always @(posedge sys_clk or negedge rst_n)
+begin
+	if(rst_n)
+		res_n <= 1'b0;
+	else
+		if(cnt< 24'b10000000)
+			cnt = cnt + 1'b1;
+		else
+			cnt <= 24'b0;
+end
+
+always @(posedge sys_clk or negedge rst_n)
+begin
+	if(!rst_n)
+		led <= 4'b0001;
+	else
+		if(cnt == 24'b1000000)
+			led <= {led[2:0],led[3]}
+		else
+			led <= led
+		
+end
+
+
+endmodule

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim
+vflow_led
+Z1 !s110 1603458596
+!i10b 1
+!s100 9Sj63=WXOH]jzKRh5IDhd1
+IbTiYa7TZgQh4RMVCAE`M22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1603452863
+8C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/flow_led.v
+FC:/Users/20185/Desktop/QT_TEST/1 flow_led/par/flow_led.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1603458596.000000
+!s107 C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/flow_led.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20185/Desktop/QT_TEST/1 flow_led/par|C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/flow_led.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/20185/Desktop/QT_TEST/1 flow_led/par}
+Z6 tCvgOpt 0
+vflow_led_vlg_tst
+R1
+!i10b 1
+!s100 ?D2<?cJLCM39MF4Bi0j@b0
+I72dC6C9KD3:R<@2BkcW8b0
+R2
+R0
+w1603458586
+8C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt
+FC:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim|C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim}
+R6

@@ -1,0 +1,72 @@
+# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do flow_led_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/1\ flow_led/par {C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/flow_led.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:56 on Oct 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/20185/Desktop/QT_TEST/1 flow_led/par" C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/flow_led.v 
+# -- Compiling module flow_led
+# 
+# Top level modules:
+# 	flow_led
+# End time: 21:09:56 on Oct 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/1\ flow_led/par/simulation/modelsim {C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:56 on Oct 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim" C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt 
+# -- Compiling module flow_led_vlg_tst
+# ** Warning: C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt(51): (vlog-2638) Bad name or identifier in Verilog compiler directive.  The following text was found where a compiler directive name or macro name was expected.: `.
+# ** Warning: C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt(51): (vlog-2638) Bad name or identifier in Verilog compiler directive.  The following text was found where a compiler directive name or macro name was expected.: `.
+# ** Warning: C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt(51): (vlog-2638) Bad name or identifier in Verilog compiler directive.  The following text was found where a compiler directive name or macro name was expected.: `.
+# ** Warning: C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt(51): (vlog-2638) Bad name or identifier in Verilog compiler directive.  The following text was found where a compiler directive name or macro name was expected.: `.
+# ** Warning: C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt(51): (vlog-2638) Bad name or identifier in Verilog compiler directive.  The following text was found where a compiler directive name or macro name was expected.: `.
+# ** Warning: C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt(51): (vlog-2638) Bad name or identifier in Verilog compiler directive.  The following text was found where a compiler directive name or macro name was expected.: `.
+# ** Warning: C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt(51): (vlog-2638) Bad name or identifier in Verilog compiler directive.  The following text was found where a compiler directive name or macro name was expected.: `.
+# 
+# Top level modules:
+# 	flow_led_vlg_tst
+# End time: 21:09:56 on Oct 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  flow_led_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" flow_led_vlg_tst 
+# Start time: 21:09:56 on Oct 23,2020
+# Loading work.flow_led_vlg_tst
+# Loading work.flow_led
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt(49)
+#    Time: 1010 ns  Iteration: 0  Instance: /flow_led_vlg_tst
+# Break in Module flow_led_vlg_tst at C:/Users/20185/Desktop/QT_TEST/1 flow_led/par/simulation/modelsim/flow_led.vt line 49
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run
+# End time: 21:11:11 on Oct 23,2020, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 0

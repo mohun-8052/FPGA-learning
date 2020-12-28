@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at time_cnt.v(12): always construct contains both blocking and non-blocking assignments File: C:/Users/20185/Desktop/QT_TEST/seg_led_static/rtl/time_cnt.v Line: 12

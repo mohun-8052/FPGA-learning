@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat May 09 16:52:33 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : seg_led_static
+Top-level Entity Name : seg_led_static_top
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 56 / 10,320 ( < 1 % )
+    Total combinational functions : 53 / 10,320 ( < 1 % )
+    Dedicated logic registers : 44 / 10,320 ( < 1 % )
+Total registers : 44
+Total pins : 16 / 180 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

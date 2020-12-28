@@ -1,0 +1,21 @@
+module vga_display(
+	input 					vga_clk,
+	input 					sys_rst_n,
+	
+	input 		[ 9:0] 	pixel_xpos,
+	input 		[ 9:0]	pixel_ypos,
+	output reg 	[15:0] 	pixel_date
+)
+
+//parameter define
+parameter H_DISP = 
+
+
+always @(posedge vga_clk or negedge sys_rst_n)begin
+	if(!sys_rst_n)
+		pixel_date <= 16'b0;
+	else begin
+		if((pixel_xpos > 0) && pixel_xpos <= ())
+	end
+end
+endmodule

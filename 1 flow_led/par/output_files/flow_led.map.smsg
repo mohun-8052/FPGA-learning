@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at flow_led.v(11): always construct contains both blocking and non-blocking assignments File: C:/Users/20185/Desktop/QT_TEST/flow_led/par/flow_led.v Line: 11

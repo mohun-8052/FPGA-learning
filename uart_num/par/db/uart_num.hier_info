@@ -1,0 +1,7 @@
+|uart_num
+num => y$latch.LATCH_ENABLE
+sys_clk => ~NO_FANOUT~
+sys_rst_n => ~NO_FANOUT~
+y <= y$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,47 @@
+|seg_led
+sys_clk => ~NO_FANOUT~
+rst_n => ~NO_FANOUT~
+en => ~NO_FANOUT~
+sign => ~NO_FANOUT~
+date[0] => ~NO_FANOUT~
+date[1] => ~NO_FANOUT~
+date[2] => ~NO_FANOUT~
+date[3] => ~NO_FANOUT~
+date[4] => ~NO_FANOUT~
+date[5] => ~NO_FANOUT~
+date[6] => ~NO_FANOUT~
+date[7] => ~NO_FANOUT~
+date[8] => ~NO_FANOUT~
+date[9] => ~NO_FANOUT~
+date[10] => ~NO_FANOUT~
+date[11] => ~NO_FANOUT~
+date[12] => ~NO_FANOUT~
+date[13] => ~NO_FANOUT~
+date[14] => ~NO_FANOUT~
+date[15] => ~NO_FANOUT~
+date[16] => ~NO_FANOUT~
+date[17] => ~NO_FANOUT~
+date[18] => ~NO_FANOUT~
+date[19] => ~NO_FANOUT~
+point[0] => ~NO_FANOUT~
+point[1] => ~NO_FANOUT~
+point[2] => ~NO_FANOUT~
+point[3] => ~NO_FANOUT~
+point[4] => ~NO_FANOUT~
+point[5] => ~NO_FANOUT~
+seg_led[0] <= <GND>
+seg_led[1] <= <GND>
+seg_led[2] <= <GND>
+seg_led[3] <= <GND>
+seg_led[4] <= <GND>
+seg_led[5] <= <GND>
+seg_led[6] <= <GND>
+seg_led[7] <= <GND>
+seg_sel[0] <= <GND>
+seg_sel[1] <= <GND>
+seg_sel[2] <= <GND>
+seg_sel[3] <= <GND>
+seg_sel[4] <= <GND>
+seg_sel[5] <= <GND>
+
+

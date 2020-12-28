@@ -1,0 +1,15 @@
+module seg_led(
+	input 							sys_clk,
+	input 							rst_n,
+	
+	input 							en,
+	input 							sign,
+	input 	reg 	[19:0] 		date,
+	input 	reg 	[ 5:0] 		point,
+	
+	output 	reg 	[ 7:0] 		seg_led，
+	output 	reg 	[ 5:0] 		seg_sel
+);
+
+
+endmodule
