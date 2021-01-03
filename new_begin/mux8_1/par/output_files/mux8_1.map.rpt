@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mux8_1
-Sat Jan 02 22:31:57 2021
+Sun Jan 03 10:21:52 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Jan 02 22:31:57 2021       ;
+; Analysis & Synthesis Status     ; Successful - Sun Jan 03 10:21:52 2021       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; mux8_1                                      ;
 ; Top-level Entity Name           ; mux8_1                                      ;
@@ -246,7 +246,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -256,10 +256,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Jan 02 22:31:42 2021
+    Info: Processing started: Sun Jan 03 10:21:33 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mux8_1 -c mux8_1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /users/20185/desktop/qt_test/new_begin/mux8_1/sim/tb_mux8_1.v
+    Info (12023): Found entity 1: tb_mux8_1 File: C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/sim/tb_mux8_1.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file /users/20185/desktop/qt_test/new_begin/mux8_1/rtl/mux8_1.v
     Info (12023): Found entity 1: mux8_1 File: C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/rtl/mux8_1.v Line: 1
 Info (12127): Elaborating entity "mux8_1" for the top level hierarchy
@@ -270,9 +272,9 @@ Info (21057): Implemented 14 device resources after synthesis - the final resour
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 2 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4815 megabytes
-    Info: Processing ended: Sat Jan 02 22:31:57 2021
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:34
+    Info: Peak virtual memory: 4804 megabytes
+    Info: Processing ended: Sun Jan 03 10:21:52 2021
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:33
 
 

@@ -10,6 +10,6 @@ in[4] => Mux0.IN6
 in[5] => Mux0.IN5
 in[6] => Mux0.IN4
 in[7] => Mux0.IN3
-out <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+out << Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
