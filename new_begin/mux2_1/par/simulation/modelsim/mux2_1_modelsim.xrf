@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/20185/Desktop/QT_TEST/new_begin/mux2_1/rtl/three_select/mux2_1.v
+source_file = 1, C:/Users/20185/Desktop/QT_TEST/new_begin/mux2_1/par/db/mux2_1.cbx.xml
+design_name = mux2_1
+instance = comp, \out~output , out~output, mux2_1, 1
+instance = comp, \in2~input , in2~input, mux2_1, 1
+instance = comp, \in1~input , in1~input, mux2_1, 1
+instance = comp, \sel~input , sel~input, mux2_1, 1
+instance = comp, \out~0 , out~0, mux2_1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, mux2_1, 1
