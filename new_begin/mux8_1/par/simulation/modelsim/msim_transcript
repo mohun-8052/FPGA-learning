@@ -1,0 +1,149 @@
+# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do mux8_1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/rtl {C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/rtl/mux8_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:33:37 on Jan 03,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/rtl" C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/rtl/mux8_1.v 
+# -- Compiling module mux8_1
+# 
+# Top level modules:
+# 	mux8_1
+# End time: 10:33:37 on Jan 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/par/../sim {C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/par/../sim/tb_mux8_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:33:37 on Jan 03,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/par/../sim" C:/Users/20185/Desktop/QT_TEST/new_begin/mux8_1/par/../sim/tb_mux8_1.v 
+# -- Compiling module tb_mux8_1
+# 
+# Top level modules:
+# 	tb_mux8_1
+# End time: 10:33:37 on Jan 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_mux8_1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_mux8_1 
+# Start time: 10:33:37 on Jan 03,2021
+# Loading work.tb_mux8_1
+# Loading work.mux8_1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# @time    0ns: sel=000   in=00000000  out=0
+# @time   10ns: sel=110   in=01101111  out=1
+# @time   20ns: sel=011   in=10110101  out=0
+# @time   30ns: sel=000   in=00111101  out=1
+# @time   40ns: sel=100   in=00111110  out=1
+# @time   50ns: sel=111   in=00100000  out=0
+# @time   60ns: sel=011   in=11110000  out=0
+# @time   70ns: sel=001   in=01100111  out=1
+# @time   80ns: sel=011   in=00110111  out=0
+# @time   90ns: sel=100   in=11111001  out=1
+# @time  100ns: sel=110   in=00000001  out=0
+# @time  110ns: sel=111   in=10011011  out=1
+# @time  120ns: sel=101   in=01000111  out=0
+# @time  130ns: sel=100   in=10001001  out=0
+# @time  140ns: sel=100   in=00111110  out=1
+# @time  150ns: sel=010   in=11000110  out=1
+# @time  160ns: sel=000   in=00100011  out=1
+# @time  170ns: sel=001   in=00011010  out=1
+# @time  180ns: sel=010   in=10111000  out=0
+# @time  190ns: sel=011   in=10111110  out=1
+# @time  200ns: sel=001   in=01001100  out=0
+# @time  210ns: sel=010   in=01110010  out=0
+# @time  220ns: sel=100   in=10000100  out=0
+# @time  230ns: sel=000   in=01111011  out=1
+# @time  240ns: sel=111   in=01100100  out=0
+# @time  250ns: sel=010   in=01011010  out=0
+# @time  260ns: sel=001   in=11110001  out=0
+# @time  270ns: sel=101   in=00000011  out=0
+# @time  280ns: sel=111   in=11101111  out=1
+# @time  290ns: sel=111   in=00110011  out=0
+# @time  300ns: sel=100   in=01000000  out=0
+# @time  310ns: sel=010   in=11111000  out=0
+# @time  320ns: sel=110   in=01100101  out=1
+# @time  330ns: sel=001   in=11100001  out=0
+# @time  340ns: sel=101   in=10111111  out=1
+# @time  350ns: sel=010   in=10000010  out=0
+# @time  360ns: sel=000   in=00101000  out=0
+# @time  370ns: sel=101   in=00010101  out=0
+# @time  380ns: sel=010   in=10101101  out=1
+# @time  390ns: sel=011   in=00110011  out=0
+# @time  400ns: sel=011   in=00110010  out=0
+# @time  410ns: sel=001   in=01101011  out=1
+# @time  420ns: sel=111   in=01001110  out=0
+# @time  430ns: sel=010   in=11010110  out=1
+# @time  440ns: sel=011   in=01101010  out=1
+# @time  450ns: sel=110   in=11001001  out=1
+# @time  460ns: sel=101   in=01110001  out=1
+# @time  470ns: sel=100   in=11110111  out=1
+# @time  480ns: sel=111   in=11100010  out=1
+# @time  490ns: sel=111   in=01000111  out=0
+# @time  500ns: sel=100   in=10110001  out=1
+# @time  510ns: sel=010   in=01011100  out=1
+# @time  520ns: sel=101   in=01100001  out=1
+# @time  530ns: sel=010   in=01101101  out=1
+# @time  540ns: sel=000   in=00011111  out=1
+# @time  550ns: sel=000   in=11111110  out=0
+# @time  560ns: sel=000   in=01011000  out=0
+# @time  570ns: sel=111   in=01011000  out=0
+# @time  580ns: sel=000   in=00100100  out=0
+# @time  590ns: sel=111   in=10111100  out=1
+# @time  600ns: sel=111   in=10010010  out=1
+# @time  610ns: sel=000   in=10011000  out=0
+# @time  620ns: sel=111   in=00010111  out=0
+# @time  630ns: sel=011   in=10000111  out=0
+# @time  640ns: sel=011   in=00000001  out=0
+# @time  650ns: sel=001   in=00011111  out=1
+# @time  660ns: sel=110   in=01111100  out=1
+# @time  670ns: sel=100   in=10000010  out=0
+# @time  680ns: sel=110   in=11010110  out=1
+# @time  690ns: sel=100   in=11100001  out=0
+# @time  700ns: sel=100   in=01100111  out=0
+# @time  710ns: sel=010   in=00001101  out=1
+# @time  720ns: sel=010   in=10010001  out=0
+# @time  730ns: sel=110   in=00110111  out=0
+# @time  740ns: sel=101   in=10101111  out=1
+# @time  750ns: sel=110   in=00110000  out=0
+# @time  760ns: sel=111   in=01000011  out=0
+# @time  770ns: sel=010   in=00001001  out=0
+# @time  780ns: sel=101   in=11101001  out=1
+# @time  790ns: sel=101   in=11011100  out=0
+# @time  800ns: sel=111   in=01000101  out=0
+# @time  810ns: sel=101   in=10010000  out=0
+# @time  820ns: sel=010   in=01100110  out=1
+# @time  830ns: sel=111   in=01100101  out=0
+# @time  840ns: sel=011   in=01010111  out=0
+# @time  850ns: sel=000   in=11100000  out=0
+# @time  860ns: sel=000   in=00111011  out=1
+# @time  870ns: sel=011   in=01101000  out=1
+# @time  880ns: sel=101   in=10111101  out=1
+# @time  890ns: sel=010   in=00101000  out=0
+# @time  900ns: sel=111   in=10011101  out=1
+# @time  910ns: sel=011   in=10010011  out=0
+# @time  920ns: sel=001   in=11110001  out=0
+# @time  930ns: sel=011   in=01010101  out=0
+# @time  940ns: sel=101   in=00100010  out=1
+# @time  950ns: sel=111   in=01011011  out=0
+# @time  960ns: sel=111   in=11101011  out=1
+# @time  970ns: sel=101   in=11000111  out=0
+# @time  980ns: sel=000   in=00100111  out=1
+# @time  990ns: sel=000   in=00000110  out=0
+# End time: 10:34:57 on Jan 03,2021, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
