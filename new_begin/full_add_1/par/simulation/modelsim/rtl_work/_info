@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/par/simulation/modelsim
+vfull_add_1
+Z1 !s110 1611566320
+!i10b 1
+!s100 j`aNFGLJE7oGYTK`DaG@o3
+Imf?=J8JAT]cfemz1X6gMk0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1611564493
+8C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/rtl/full_add_1.v
+FC:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/rtl/full_add_1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1611566320.000000
+!s107 C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/rtl/full_add_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/rtl|C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/rtl/full_add_1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/rtl
+Z6 tCvgOpt 0
+vtb_full_add_1
+R1
+!i10b 1
+!s100 e7L<]e>a9M_YD`oKE@^@82
+IeNUe@Y4fS1I@5cR1nj78_2
+R2
+R0
+w1611566199
+8C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/par/../sim/tb_full_add_1.v
+FC:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/par/../sim/tb_full_add_1.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/par/../sim/tb_full_add_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/par/../sim|C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/par/../sim/tb_full_add_1.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/par/../sim
+R6

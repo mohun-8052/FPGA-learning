@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/sim/tb_full_add_1.v
+source_file = 1, C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/rtl/full_add_1.v
+source_file = 1, C:/Users/20185/Desktop/QT_TEST/new_begin/full_add_1/par/db/full_add_1.cbx.xml
+design_name = full_add_1
+instance = comp, \sum~output , sum~output, full_add_1, 1
+instance = comp, \cout~output , cout~output, full_add_1, 1
+instance = comp, \cin~input , cin~input, full_add_1, 1
+instance = comp, \in2~input , in2~input, full_add_1, 1
+instance = comp, \in1~input , in1~input, full_add_1, 1
+instance = comp, \Add1~0 , Add1~0, full_add_1, 1
+instance = comp, \Add1~1 , Add1~1, full_add_1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, full_add_1, 1

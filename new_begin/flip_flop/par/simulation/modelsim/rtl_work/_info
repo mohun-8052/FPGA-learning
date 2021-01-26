@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/par/simulation/modelsim
+vflip_flop
+!s110 1611577851
+!i10b 1
+!s100 SGKUhVn^Z_=aGmGTc2=K;1
+IJR=3iAPbf2_MTY^fMbeC83
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1611575994
+8C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/rtl/flip_flop.v
+FC:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/rtl/flip_flop.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1611577851.000000
+!s107 C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/rtl/flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/rtl|C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/rtl/flip_flop.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/rtl
+Z5 tCvgOpt 0
+vtb_flip_flop
+!s110 1611577852
+!i10b 1
+!s100 91]8Vz5LJm[>50lW0fbiP1
+IX21=haLLddgW`HcI0[P;G0
+R1
+R0
+w1611577713
+8C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/par/../sim/tb_flip_flop.v
+FC:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/par/../sim/tb_flip_flop.v
+L0 3
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/par/../sim/tb_flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/par/../sim|C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/par/../sim/tb_flip_flop.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/flip_flop/par/../sim
+R5

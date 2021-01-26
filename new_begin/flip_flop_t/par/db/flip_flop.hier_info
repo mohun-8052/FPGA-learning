@@ -1,0 +1,7 @@
+|flip_flop
+sys_clk => led~reg0.CLK
+sys_rst_n => led.OUTPUTSELECT
+key_in => led.DATAB
+led << led~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

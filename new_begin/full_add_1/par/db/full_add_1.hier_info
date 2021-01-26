@@ -1,0 +1,8 @@
+|full_add_1
+in1 => Add0.IN1
+in2 => Add0.IN2
+cin => Add1.IN4
+sum << Add1.DB_MAX_OUTPUT_PORT_TYPE
+cout << Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/20185/Desktop/QT_TEST/new_begin/full_add/par/simulation/modelsim
+vfull_add
+Z1 !s110 1611563618
+!i10b 1
+!s100 [eX1ohV6hXQlTGVZNdmek3
+ICBznUZIzZAKP`Y8YnCm>Z1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1611562647
+8C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl/full_add.v
+FC:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl/full_add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1611563618.000000
+!s107 C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl/full_add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl|C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl/full_add.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl
+Z7 tCvgOpt 0
+vhalf_add
+R1
+!i10b 1
+!s100 RK?@K1IVF?@5:dDE6H?kJ2
+Iji[SNc:GA1aVcSI4[<g2z2
+R2
+R0
+w1611560898
+8C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl/half_add.v
+FC:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl/half_add.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl/half_add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl|C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/rtl/half_add.v|
+!i113 1
+R5
+R6
+R7
+vtb_full_add
+R1
+!i10b 1
+!s100 `GEl`hTdS2?5NTZca=XFz0
+INAgMWYooSH[i7nLU74Bn@1
+R2
+R0
+w1611563040
+8C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/par/../sim/tb_full_add.v
+FC:/Users/20185/Desktop/QT_TEST/new_begin/full_add/par/../sim/tb_full_add.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/par/../sim/tb_full_add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/par/../sim|C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/par/../sim/tb_full_add.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/20185/Desktop/QT_TEST/new_begin/full_add/par/../sim
+R7

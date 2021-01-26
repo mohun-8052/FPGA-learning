@@ -1,0 +1,6 @@
+|test
+clk => ~NO_FANOUT~
+reset_n => ~NO_FANOUT~
+s <= <GND>
+
+
